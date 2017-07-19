@@ -36,7 +36,7 @@ body{
   border: 2px solid white;
   padding: 17px;
   color: white;
-  
+  text-decoration: none;
 }
 
 h2{
@@ -48,4 +48,31 @@ h3{
 }
 div section p a{
   color: #1fabe5;
+}
+
+ul{
+  font-weight: bold;
+}
+
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: bolder;
+}
+
+thead td{
+  border: 2px solid #046c97;
+  height: 70px;
+  background-color: #1fabe5;
+  color: white;
+}
+
+tbody td{
+  border: 2px solid #1fabe5;
+}
+
+tbody img{
+  height: 40%;
+  width: 30%;
 }
