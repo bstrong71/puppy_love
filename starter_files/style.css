@@ -52,13 +52,15 @@ div section p a{
 
 ul{
   font-weight: bold;
+  border-bottom: 2px solid #046c97;
+  padding-bottom: 10px;
 }
 
 
 table{
   border-collapse: collapse;
   width: 100%;
-  font-weight: bolder;
+
 }
 
 thead td{
@@ -66,13 +68,31 @@ thead td{
   height: 70px;
   background-color: #1fabe5;
   color: white;
+  padding-left: 15px;
 }
 
 tbody td{
   border: 2px solid #1fabe5;
+  padding-left: 15px;
+  width: 1px;
+  white-space: nowrap;
 }
 
 tbody img{
-  height: 40%;
-  width: 30%;
+  width: 70%;
+  height: auto;
+  padding: 10px;
+}
+
+form{
+  background-color: #dddddd;
+  padding: 20px;
+}
+
+.name{
+  background-color: #ff8523;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
